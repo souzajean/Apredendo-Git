@@ -1,4 +1,3 @@
-
 git add .
 git commit -m 'testando agora denovo usando certificado'
 git status
