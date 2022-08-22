@@ -1,4 +1,6 @@
-teste
-teste2
-teste3
-teste4
+
+
+git add *
+git commit -m 'testando agora'
+git status
+git push -u origin main
