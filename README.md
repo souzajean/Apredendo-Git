@@ -1,15 +1,15 @@
-git add .
-git commit -m 'testando agora denovo usando certificado'
-git status
-git push -u origin main
+git pus	git add . <br>
+git commit -m 'testando agora denovo usando certificado'<br>
+git status<br>
+git push -u origin main<br>
+<br>
+git status<br>
+git add .<br>
+git commit -m 'testando agora denovo usando certificado'<br>
+git push<br>
 
-git status
-git add .
-git commit -m 'testando agora denovo usando certificado'
-git push
 
-
-sh-keygen -t ed25519 -C "your_email@example.com"
-$ eval "$(ssh-agent -s)"
-> Agent pid 59566
-$ ssh-add ~/.ssh/id_ed25519
+sh-keygen -t ed25519 -C "your_email@example.com"<br>
+$ eval "$(ssh-agent -s)"<br>
+> Agent pid 59566<br>
+$ ssh-add ~/.ssh/id_ed25519 <br>
