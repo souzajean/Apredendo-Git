@@ -54,4 +54,18 @@ git log (copiar hash commit) <br>
 git checkout -b feature/arquivonovo <br>
 git cherry-pick (colar hash commit) <br>
 ls <br>
+git log <br><br>
+
+git tag <br>
+git branch <br>
+git checkout main <br>
+git branch <br>
 git log <br>
+git tag -a v2.0 -m "Versão 2.0" <br>
+git tag (Copiar hash do commit) <br>
+git tag -a v2.0 -m "Versão 1.0" (Copiar hash do commit) <br>
+git tag <br>
+git show v2.0 <br>
+git tag -d v2.0 <br>
+
+
