@@ -34,7 +34,7 @@ git chekout -b nomebranch <br>
 git log <br>
 echo "Adicionando arquivo rebase.txt" >> rebase.txt <br>>
 git status <br>
-it add .<br>
+git add .<br>
 git commit -m 'Adicionando arquivo rebase.txt'<br>
 git log <br>
 
