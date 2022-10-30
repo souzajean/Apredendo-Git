@@ -9,6 +9,10 @@ git add .<br>
 git commit -m 'testando agora denovo usando certificado'<br>
 git push<br><br>
 
+ssh-keygen -t rsa -b 2048 <br>
+cd ~/.ssh/ <br>
+ls -lha <br>
+cat rsa.pub <br>
 
 sh-keygen -t ed25519 -C "your_email@example.com"<br>
 $ eval "$(ssh-agent -s)"<br>
