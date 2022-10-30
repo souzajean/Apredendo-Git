@@ -1,4 +1,5 @@
-git pus	git add . <br>
+git push <br>
+git add . <br>
 git commit -m 'testando agora denovo usando certificado'<br>
 git status<br>
 git push -u origin main<br>
@@ -16,9 +17,22 @@ $ ssh-add ~/.ssh/id_ed25519 <br>
 ssh-add ~/.ssh/id_ed25519 <br>
 
 
-git chekout main <br>
+git chekout -b nomebranch <br>
+git commit -m 'testando usuario branch'<br>
+git branch <br>
 git merge nomebranch <br>
+git log <br>
 
+git chekout -b nomebranch <br>
+git log <br>
+echo "Adicionando arquivo rebase.txt" >> rebase.txt <br>>
+git status <br>
+it add .<br>
+git commit -m 'Adicionando arquivo rebase.txt'<br>
+git log <br>
+
+git rebase nomebranch <br>
+<br>
 
 
 
