@@ -14,7 +14,7 @@ sh-keygen -t ed25519 -C "your_email@example.com"<br>
 $ eval "$(ssh-agent -s)"<br>
 > Agent pid 59566 <br>
 $ ssh-add ~/.ssh/id_ed25519 <br>
-ssh-add ~/.ssh/id_ed25519 <br>
+ssh-add ~/.ssh/id_ed25519 <br><br>
 
 
 git chekout -b nomebranch <br>
@@ -32,8 +32,10 @@ git commit -m 'Adicionando arquivo rebase.txt'<br>
 git log <br>
 
 git rebase nomebranch <br>
+git branch -d nomebranch <br>
 <br>
 
-
-
-
+<br>
+<br>
+git che<br>
+<br>
