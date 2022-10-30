@@ -85,3 +85,15 @@ git add .<br>
 git commit -m 'enviando apos o merge'<br>
 git log <br>
 git push<br><br>
+
+git fetch origin <br>
+git branch -r <br>
+git checkout origin/main <br>
+git diff main origin/main <br>
+git checkout main <br>
+git merge origin/main <br>
+No arquivo verificar status entre os commits <br>
+git commit -a -m "Merge com fit fetch" <br>
+git push<br><br>
+<br>
+
