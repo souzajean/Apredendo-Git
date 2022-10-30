@@ -4,6 +4,10 @@ git commit -m 'testando agora denovo usando certificado'<br>
 git status<br>
 git push -u origin main<br>
 <br>
+git remote add origin git@github.com:souzajean/souzajean.git <br>
+git branch -M main <br>
+git push -u origin main <br><br>
+
 git status<br>
 git add .<br>
 git commit -m 'testando agora denovo usando certificado'<br>
@@ -70,4 +74,14 @@ git tag -a v2.0 -m "Versão 1.0" (Copiar hash do commit) <br>
 git tag <br>
 git show v2.0 <br>
 git tag -d v2.0 <br>
+git pull <br><br>
+
+#Conflito <br>
+git config pull.rebase false <br>
+#Conflito Arquivos <br>
 git pull <br>
+No arquivo verificar status e commits <br>
+git add .<br>
+git commit -m 'enviando apos o merge'<br>
+git log <br>
+git push<br><br>
