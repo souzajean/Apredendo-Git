@@ -20,7 +20,6 @@ $ eval "$(ssh-agent -s)"<br>
 $ ssh-add ~/.ssh/id_ed25519 <br>
 ssh-add ~/.ssh/id_ed25519 <br><br>
 
-
 git chekout -b nomebranch <br>
 git commit -m 'testando usuario branch'<br>
 git branch <br>
@@ -70,6 +69,8 @@ git tag (Copiar hash do commit) <br>
 git tag -a v2.0 -m "Versão 1.0" (Copiar hash do commit) <br>
 git tag <br>
 git show v2.0 <br>
+
+git pull <br>
 git tag -d v2.0 <br>
 
 
