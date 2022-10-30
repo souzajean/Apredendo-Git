@@ -96,4 +96,16 @@ No arquivo verificar status entre os commits <br>
 git commit -a -m "Merge com fit fetch" <br>
 git push<br><br>
 <br>
+git log <br>
+git log --online <br>
+git log --stat <br>
+git log -n -2 <br>
+git log --author="Jean Souza" <br>
+git log -p <br>
+git log graph <br>
+git log graph --online  <br>
+git log --after="1 week out" --before=="yesterday" <br>
+git log --pretty=format:"%h - %cd - %B" <br>
+git log --graph --pretty=format:"%h - %cd - %B %d" <br>
+
 
