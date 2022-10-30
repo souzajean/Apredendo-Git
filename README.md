@@ -69,8 +69,5 @@ git tag (Copiar hash do commit) <br>
 git tag -a v2.0 -m "Versão 1.0" (Copiar hash do commit) <br>
 git tag <br>
 git show v2.0 <br>
-
-git pull <br>
 git tag -d v2.0 <br>
-
-
+git pull <br>
