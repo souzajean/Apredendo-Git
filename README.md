@@ -35,7 +35,23 @@ git rebase nomebranch <br>
 git branch -d nomebranch <br>
 <br>
 
-<br>
-<br>
-git che<br>
-<br>
+git log <br>
+git checkout -b feature/arquivonovo <br>
+echo "Arquivn novo" >> novoarquivo.txt <br>
+git add . <br>
+git commit -m "Adicionando um novoarquivo" <br>
+git branch <br>
+git checkout main <br>
+ls <br>
+git checkout -b hotfix <br>
+git branch <br>
+echo "Arquivo hotfix" >> hotfix.txt <br>
+ls <br>
+git add . <br>
+git commit -m "Adicionando hotfix" <br>
+git status <br>
+git log (copiar hash commit) <br>
+git checkout -b feature/arquivonovo <br>
+git cherry-pick (colar hash commit) <br>
+ls <br>
+git log <br>
