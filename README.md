@@ -11,7 +11,15 @@ git push<br><br>
 
 sh-keygen -t ed25519 -C "your_email@example.com"<br>
 $ eval "$(ssh-agent -s)"<br>
-> Agent pid 59566<br>
+> Agent pid 59566 <br>
 $ ssh-add ~/.ssh/id_ed25519 <br>
-ssh-add ~/.ssh/id_ed25519<br>
+ssh-add ~/.ssh/id_ed25519 <br>
+
+
+git chekout main <br>
+git merge nomebranch <br>
+
+
+
+
 
